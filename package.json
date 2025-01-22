@@ -9,19 +9,41 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sanity/image-url": "^1.1.0",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@types/lodash": "^4.17.14",
+    "axios": "^1.7.9",
+    "classnames": "^2.5.1",
+    "date-fns": "^4.1.0",
+    "flowbite": "^2.5.2",
+    "flowbite-react": "^0.10.2",
+    "lodash": "^4.17.21",
+    "next": "15.1.5",
+    "next-sanity": "^9.8.39",
+    "prettier": "^3.4.2",
+    "pretty-print": "^2.0.0",
+    "prisma": "^6.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.5"
+    "react-hook-form": "^7.54.2",
+    "react-select": "^5.9.0",
+    "react-toastify": "^11.0.3",
+    "stylelint": "^16.13.2",
+    "tailwind-merge": "^2.6.0",
+    "zod": "^3.24.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "eslint": "^9.18.0",
+    "eslint-config-next": "15.1.5",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.5",
-    "@eslint/eslintrc": "^3"
+    "typescript": "^5"
   }
 }
